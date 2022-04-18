@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <title>Cifrador - Challenge Alura ONE</title>
+</head>
+<body>
+    <main class="wrapper">
+        <div class="logo">
+            <a href="https://www.aluracursos.com/" target="_blank" rel="noopener noreferrer"><img src="./images/alura-logo.png" alt="logo de alura"/></a>
+        </div>
+
+        <!--texto a cifrar/descifrar-->
+        <div class="input-text">
+            <div id="text-form">
+                <textarea id="text-to-manipulate" placeholder="Ingrese el texto aquí" required></textarea>
+                <p><img src="./images/exclamation.svg" alt="icono de advertencia"/>Solo letras minúsculas y sin acentos</p>
+                <div class="input-text-btns">
+                    <div>
+                        <button id="crypt-btn" type="button">Encriptar</button>
+                    </div>
+                    <div>
+                        <button id="decrypt-btn" type="button">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--texto cifrado/descifrado-->
+        <div class="output-text">
+            <div id="no-text" class="output-text-no-msg">
+                <img src="./images/searching.svg" alt="joven con una lupa buscando"/>
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="text" class="output-text-msg hidden">
+                <textarea id="output-text" readonly></textarea>
+                <button id="copy-btn" type="button">Copiar</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./scripts/app.js"></script>
+</html>
