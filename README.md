@@ -17,7 +17,8 @@ https://beze1.github.io/cipher-challenge-oracle/
 ## The challenge
 
 Put into practice everything learned during the first 10 courses by building a website in a 2-week sprint that can cipher and decipher the text entered by the user **according to requirements proposed by the Alura LATAM team.**
-### Encoding keys
+
+## Encoding keys
 
 | Key           | Value                                                                |
 | ----------------- | ------------------------------------------------------------------ |
@@ -29,13 +30,14 @@ Put into practice everything learned during the first 10 courses by building a w
 
 And vice versa.
 
-### Requirements
+## Requirements
 
 * Only lowercase letters and without accents are accepted.
 * It must be possible to convert a word and for the encrypted version to return the original version.
 * The page must have fields for inserting the text to be encoded or decoded, and the user must be able to choose between both options.
 * The result must be displayed on the screen.
 * It must contain a button that copies the resulting text (having the same functionality as ctrl + c).
-## The design
 
+
+## The design
 [This is the design](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1) made in Figma that we received to build on or otherwise we could make a customized one.
