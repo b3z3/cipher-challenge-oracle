@@ -12,7 +12,7 @@ This project is a web page developed in HTML, CSS and JS to solve the **first ch
 <p align="center"><img src="https://i.imgur.com/3r17O59.gif" /></p>
 
 ## Link
-https://beze1.github.io/cipher-challenge-oracle/
+https://b3z3.github.io/cipher-challenge-oracle/
 
 ## The challenge
 
